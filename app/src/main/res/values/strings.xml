@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">IA_IMPERIATEC</string>
+    <string name="button_import">Importer un document</string>
+    <string name="button_analyze">Lancer l’analyse</string>
+    <string name="hint_search">Rechercher dans les documents</string>
+    <string name="label_summary">Résumé</string>
+    <string name="text_summary_placeholder">(Le résumé apparaîtra ici)</string>
+    <string name="label_search_results">Résultats de la recherche</string>
+    <string name="text_search_placeholder">(Les résultats apparaîtront ici)</string>
+</resources>

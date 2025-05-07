@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <!-- Barre de recherche -->
+        <EditText
+            android:id="@+id/searchBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_search"
+            android:inputType="text"
+            android:autofillHints="username"
+            android:drawableStart="@android:drawable/ic_menu_search"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:background="@android:drawable/editbox_background" />
+
+        <!-- Bouton Importer un document -->
+        <Button
+            android:id="@+id/buttonImport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_import"
+            android:layout_marginTop="16dp" />
+
+        <!-- Bouton Analyser le document -->
+        <Button
+            android:id="@+id/buttonAnalyze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_analyze"
+            android:layout_marginTop="8dp" />
+
+        <!-- Résumé généré -->
+        <TextView
+            android:id="@+id/textSummaryLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_summary"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/textSummary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_summary_placeholder"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:background="#DDDDDD"
+            android:minHeight="100dp" />
+
+        <!-- Résultats de recherche -->
+        <TextView
+            android:id="@+id/textSearchResultLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_search_results"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="24dp" />
+
+        <TextView
+            android:id="@+id/textSearchResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_search_placeholder"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:background="#DDDDDD"
+            android:minHeight="100dp" />
+    </LinearLayout>
+</ScrollView>
