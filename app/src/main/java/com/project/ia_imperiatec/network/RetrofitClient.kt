@@ -1,5 +1,6 @@
 package com.project.ia_imperiatec.network
 
+<<<<<<< HEAD
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 import okhttp3.OkHttpClient
@@ -22,3 +23,5 @@ object RetrofitClient {
             .create(IAService::class.java)
     }
 }
+=======
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a

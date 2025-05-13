@@ -39,6 +39,7 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+<<<<<<< HEAD
 
     packaging {
         resources {
@@ -49,6 +50,8 @@ android {
             excludes += "META-INF/NOTICE.txt"
         }
     }
+=======
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a
 }
 
 dependencies {
@@ -57,6 +60,7 @@ dependencies {
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
 
+<<<<<<< HEAD
     // Retrofit + GSON + OkHttp
     implementation("com.squareup.retrofit2:retrofit:2.9.0")
     implementation("com.squareup.retrofit2:converter-gson:2.9.0")
@@ -68,6 +72,8 @@ dependencies {
     // Extraction de texte PDF
     implementation("com.tom-roush:pdfbox-android:2.0.27.0")
 
+=======
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a
     // Tests
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")

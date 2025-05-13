@@ -16,7 +16,11 @@
             android:id="@+id/searchBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:hint="Entrez une requête"
+=======
+            android:hint="@string/hint_search"
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a
             android:inputType="text"
             android:autofillHints="username"
             android:drawableStart="@android:drawable/ic_menu_search"
@@ -29,7 +33,11 @@
             android:id="@+id/buttonImport"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="Importer un document PDF"
+=======
+            android:text="@string/button_import"
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a
             android:layout_marginTop="16dp" />
 
         <!-- Bouton Analyser le document -->
@@ -37,7 +45,11 @@
             android:id="@+id/buttonAnalyze"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="Lancer l’analyse"
+=======
+            android:text="@string/button_analyze"
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a
             android:layout_marginTop="8dp" />
 
         <!-- Résumé généré -->
@@ -45,7 +57,11 @@
             android:id="@+id/textSummaryLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="Résumé généré"
+=======
+            android:text="@string/label_summary"
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a
             android:textStyle="bold"
             android:textColor="#000000"
             android:layout_marginTop="24dp" />
@@ -54,7 +70,11 @@
             android:id="@+id/textSummary"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="Le résumé apparaîtra ici..."
+=======
+            android:text="@string/text_summary_placeholder"
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a
             android:textColor="#000000"
             android:padding="8dp"
             android:background="#DDDDDD"
@@ -65,7 +85,11 @@
             android:id="@+id/textSearchResultLabel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="Résultats de recherche"
+=======
+            android:text="@string/label_search_results"
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a
             android:textStyle="bold"
             android:textColor="#000000"
             android:layout_marginTop="24dp" />
@@ -74,10 +98,18 @@
             android:id="@+id/textSearchResults"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+<<<<<<< HEAD
             android:text="Les résultats apparaîtront ici..."
             android:textColor="#000000"
             android:padding="8dp"
             android:background="#EEEEEE"
             android:minHeight="150dp" />
+=======
+            android:text="@string/text_search_placeholder"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:background="#DDDDDD"
+            android:minHeight="100dp" />
+>>>>>>> 95b63e6271f1fa7a507039735f05ae2e1783d63a
     </LinearLayout>
 </ScrollView>
